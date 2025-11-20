@@ -2,28 +2,17 @@
 
 **Assignment Instructions:** https://courses.smp.uq.edu.au/MATH2504/2025/assessment_html/project3.html
 
-## Running Project Instructions
-To load all functionality and process the dataset, in the directory of the repo:
-```
-] activate .
-```
+**Data sourced from:** https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market?select=Melbourne_housing_FULL.csv
 
-```
-] instantiate
-```
+The `analysis.ipynb` Jupyter notebook includes the code and output for all summaries/ plots. Comments were included on some outputs where it was deemed noteworthy or relevant for future investigation.
 
-```
-julia> include("housing_data.jl")
-```
-
-The tasks were split into separate files to keep organised and easy to navigate. Summaries of tasks:
+## Tasks:
 1. Exploratory data of single variables
 2. Exploratory data analysis comparing variables
 3. Exploratory data analyis over time
 4. Linear Regression Models
 5. Location data on map
 
-Summary statistics are printed in the terminal and graphs are saved in their corresponding folder.
-All outputs are presented in the pdf file with submission.
+All plots are presented in the `analysis.ipynb` file (converted to pdf for submission). The plots are also saved in their corresponding folders for ease of access.
 
 *Note: Some values in dataset were string("#N/A") which were manually changed using find and replace feature in VSCode*
